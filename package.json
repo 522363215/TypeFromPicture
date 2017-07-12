@@ -1,0 +1,11 @@
+{
+	"name": "updata-npm",
+	"version": "1.0.0",
+	"description": "test update to npm",
+	"main": "TypeFromPicture.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "p.sai",
+	"license": "ISC"
+}
