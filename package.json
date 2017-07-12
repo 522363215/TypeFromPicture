@@ -1,6 +1,6 @@
 {
-	"name": "TypeFromPicture",
-	"version": "1.0.1",
+	"name": "type-from-picture",
+	"version": "1.0.0",
 	"description": "test update to npm",
 	"main": "TypeFromPicture.js",
 	"repository": "https://github.com/522363215/TypeFromPicture.git",
@@ -8,8 +8,5 @@
 		"test": "echo \"Error: no test specified\" && exit 1"
 	},
 	"author": "p.sai",
-	"license": "ISC",
-	"dependencies": {
-		"vue-count-to": "^1.0.5"
-	}
+	"license": "ISC"
 }
