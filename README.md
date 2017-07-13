@@ -1,3 +1,40 @@
+### TypeFromPicture
+
+
+----------
+图片进行网格化，然后根据像素值求出每一个格子对应的类型，最后返回一个二维数组
+
+### 使用
+
+
+----------
+
+
+```
+npm install TypeFromPicture -save
+```
+
+
+### 带了一个简单的demo
+
+----------
+
+```
+git clone https://github.com/522363215/TypeFromPicture.git
+
+运行demo下的 index.html
+```
+
+### 博客地址
+
+
+----------
+http://blog.csdn.net/qq_22218005
+
+
+----------
+
+
 ### 好久没有写博客，正好借此写下最近遇到的一个问题，慢慢把写博客的习惯捡起来，哈哈！
 #### 问题：给一个图片，把这张图片进行坐标化，并且 在生成的二位坐标系上标记出每个坐标点所属的类型。
 #### 这样说好像有点难理解，我都有点小迷啦...直接上图...
@@ -166,7 +203,7 @@ class TypesFromPicture {
 <html>
 <head>
 <meta charset="utf-8">
-	<title></title>
+  <title></title>
 </head>
 <body>
 
@@ -244,5 +281,7 @@ Uncaught SecurityError: Failed to execute 'getImageData' on 'CanvasRenderingCont
 #### **注意要先加一个空格哦**
 
 #### 然后就可以在浏览器控制台里看到log输出，把输出的数据copy到一个txt文件里，然后就可以使用java、c#等语言进行文件流读取，封装成想要的数据即可！
+
+#### 可以使用 屏幕吸色器来对图片中的像素值进行提取
 
 ### 这篇文章也是第一次尝试使用markdown来编写，如果有不好的地方，请见谅！本人是实习生一枚~~哈哈
