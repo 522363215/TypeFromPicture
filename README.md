@@ -11,7 +11,7 @@
 
 
 ```
-npm install type-from-picture -save
+npm install type-from-picture@1.0.1 -save
 ```
 
 
