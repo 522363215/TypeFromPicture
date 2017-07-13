@@ -1,6 +1,6 @@
 {
 	"name": "type-from-picture",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "test update to npm",
 	"main": "TypeFromPicture.js",
 	"repository": "https://github.com/522363215/TypeFromPicture.git",
