@@ -208,7 +208,7 @@ class TypesFromPicture {
 <body>
 
 <p>要使用的图片：</p>
-<img src="icon/地图背景-恢复的(1) - 副本.jpg"  width="300" height="150" alt="tulip" id="tulip" style="margin-left:0px;" />
+<img src="../img/海域地图.jpg"  width="300" height="150" alt="tulip" id="tulip" style="margin-left:0px;" />
 
 <p>Canvas:</p>
 
@@ -216,6 +216,7 @@ class TypesFromPicture {
 Your browser does not support the HTML5 canvas tag.
 </canvas>
 
+<script type="text/javascript" src="../TypeFromPicture.js"></script>
 <script type="text/javascript" src="./test.js"></script>
 </body>
 </html>
@@ -235,13 +236,13 @@ const threshold = {
   land: {
     r: [23, 43],
     g: [48, 68],
-    b: [88, 108],
+    b: [88, 120],
     a: [0, 255],
   },
   ocean: {
-    r: [52, 82],
-    g: [119, 159],
-    b: [160, 200],
+    r: [65, 100],
+    g: [130, 180],
+    b: [180, 220],
     a: [0, 255],
   }
 };
