@@ -1,6 +1,6 @@
 (function(global, factory) {
   typeof exports === 'object' && typeof module !== 'undefined' ? module.exports = factory() :
-    typeof define === 'function' && define.amd ? define(factory) : (global.Qarticles = factory());
+    typeof define === 'function' && define.amd ? define(factory) : (global.TypesFromPicture = factory());
 }(this, function() {
   /**
    * 把图片进行网格化，然后根据像素值求出每一个格子对应的类型，最后返回一个二维数组
