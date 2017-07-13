@@ -11,7 +11,7 @@
 
 
 ```
-npm install TypeFromPicture -save
+npm install type-from-picture -save
 ```
 
 
@@ -283,5 +283,3 @@ Uncaught SecurityError: Failed to execute 'getImageData' on 'CanvasRenderingCont
 #### 然后就可以在浏览器控制台里看到log输出，把输出的数据copy到一个txt文件里，然后就可以使用java、c#等语言进行文件流读取，封装成想要的数据即可！
 
 #### 可以使用 屏幕吸色器来对图片中的像素值进行提取
-
-### 这篇文章也是第一次尝试使用markdown来编写，如果有不好的地方，请见谅！本人是实习生一枚~~哈哈
